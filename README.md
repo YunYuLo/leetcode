@@ -4,7 +4,7 @@
 
 
 | # | Title | Source Code (Explanation) | Difficulty |
-|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  | [JavaScript]() | | Easy |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Javascript]() | | Medium |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [JavaScript]() | | Medium |
