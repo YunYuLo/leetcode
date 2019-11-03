@@ -16,9 +16,29 @@ A 為丘狀陣列，其條件符合下述
  * @param {number[]} A
  * @return {number}
  */
+
+//Linear Search
+// var peakIndexInMountainArray = function (A) {
+//   for (let i = 0; i < A.length; i++) {
+//     if (A[i - 1] < A[i] && A[i] > A[i + 1])
+//       return i
+//   }
+// };
+
+//Binary Search
 var peakIndexInMountainArray = function (A) {
-  for (let i = 0; i < A.length; i++) {
-    if (A[i - 1] < A[i] && A[i] > A[i + 1])
-      return i
+  let left = 0
+  let right = A.length - 1
+  let mid = Math.floor((left + right) / 2)
+  while (left < right) {
+    if (A[mid - 1] < A[mid] && A[mid] > A[mid + 1]) {
+      return mid
+    } else if (A[mid] > A[mid - 1]) {
+      left = mid + 1
+    } else {
+      right = mid - 1
+    }
   }
 };
+
+peakIndexInMountainArray([0, 2, 1, 0])
