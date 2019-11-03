@@ -40,11 +40,16 @@ function sortBeforeMerge(arr1, arr2) {
 
 /** step by step **/
 /** for example: [5,2,3,1]
- * 在第一個function中會把[5,2,3,1]依序拆解
-   sortArray([5,2], [3,1])
-   sortArray([5],[2],[3],[1])
- * 進入sortBeforeMerge
-   
+ * 在第一個function中會把[5,2,3,1]依序拆解至最小單位，再排序
+            [5,2,3,1]
+           /         \
+    [5,2]               [3,1]
+    /  \                 /  \
+  [5]  [2]             [3]  [1]
+    \  /                 \   /
+    [2,5]                [1,3]
+          \            /  
+            [1,2,3,5]
  **/
 
 function mergeSort(arr) {
@@ -85,7 +90,3 @@ function sortBeforeMerge(arr1, arr2) {
   sortedArr = arr1.length ? sortedArr.concat(arr1) : sortedArr.concat(arr2)
   return sortedArr
 }
-
-console.log(mergeSort([3, 20, 8, 5, 1, 12, 17, 2]))
-
-/** resource:https://pjchender.blogspot.com/2017/09/merge-sort.html **/
