@@ -23,3 +23,7 @@
 | 779 | [K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | [JavaScript](https://github.com/YunYuLo/leetcode/blob/master/algorithms/779K-thSymbolInGrammar.js) | Medium |
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | [JavaScript](https://github.com/YunYuLo/leetcode/blob/master/algorithms/912SortAnArray.js) | Medium |
 |---|Dynamic programming|---|---|
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [JavaScript](https://github.com/YunYuLo/leetcode/blob/master/algorithms/198HouseRobber.js) | Easy |
+| 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | [JavaScript](https://github.com/YunYuLo/leetcode/blob/master/algorithms/583DeleteOperationForTwoStrings.js) | Medium |
+| 746| [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [JavaScript](https://github.com/YunYuLo/leetcode/blob/master/algorithms/746MinCostClimbingStairs.js) | Easy |
+| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [JavaScript](https://github.com/YunYuLo/leetcode/blob/master/algorithms/1143LongestCommonSubsequence.js) | Medium |
