@@ -63,3 +63,14 @@ var searchBST = function (root, val) {
   return null;
 
 };
+
+/* method3 */
+var searchBST = function (root, val) {
+  if (root == null) return null
+  if (root.val == val) return root
+  if (root.val > val) {
+    return searchBST(root.left, val)
+  } else {
+    return searchBST(root.left, val)
+  }
+}
